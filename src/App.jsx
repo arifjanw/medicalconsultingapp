@@ -7,7 +7,7 @@ import BookingPage from './Pages/BookingPage';
 function App() {
   return (
    
-    <Router basename='\medicalconsulting'>
+    <Router basename='\medicalconsultingapp'>
       <Routes>
         <Route path="/" element={<LandingPage />} /> 
         <Route path="/services" element={<ServicePage />} />
