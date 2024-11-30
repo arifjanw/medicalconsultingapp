@@ -6,9 +6,10 @@ import QuestionnaireViewer from "./Components/QuestionareViewer";
 import BookingPage from './Pages/BookingPage';
 function App() {
   return (
-    <Router>
+   
+    <Router basename='\medicalconsulting'>
       <Routes>
-        <Route path="/" element={<LandingPage />} /> {/* Set LandingPage as default route */}
+        <Route path="/" element={<LandingPage />} /> 
         <Route path="/services" element={<ServicePage />} />
         <Route path="/bookingpage" element={<BookingPage />} />
         <Route path="/view-response/:id" element={<QuestionnaireViewer />} />
